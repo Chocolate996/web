@@ -111,7 +111,7 @@ a {
     width: 100%;
     margin-top: 25px;
     box-shadow: var(--shadow-1) 0px 0px 0px, var(--shadow-2) 0px 0px 0px;
-    filter: saturate(120%)contrast(110%)sepia(50%);
+    filter: saturate(100%);
     border-radius: 10px;
     background-size: cover;
     background-position: center;
