@@ -121,6 +121,21 @@ a {
     transition: all 0.1s var(--animation-start);
 }
 
+.picture:hover {
+    height: 1200px;
+    width: 100%;
+    margin-top: 25px;
+    box-shadow: var(--shadow-1) 0px 0px 0px, var(--shadow-2) 0px 0px 0px;
+    filter: saturate(100%);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    transition: all 0.1s var(--animation-start);
+}
+
 .picture-fill {
     z-index: 1;
     background-color: transparent;
